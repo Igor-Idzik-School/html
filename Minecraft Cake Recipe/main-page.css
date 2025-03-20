@@ -11,6 +11,7 @@ img{
 }
 body{
     background-image: url("Main Page Images/Dirt-Background.png");
+    background-attachment: fixed;
 }
 h1{
 
