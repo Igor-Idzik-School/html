@@ -1,0 +1,47 @@
+img{
+    border-radius: 1% ;
+}
+@font-face {
+    font-family: MinecraftHead;
+    src: url("Fonts/Header-Font/MinecraftTen-VGORe.ttf");
+}
+@font-face {
+    font-family: MinecraftNormal;
+    src: url("Fonts/MinecraftRegular-Bmg3.otf");
+}
+body{
+    background-image: url("Main Page Images/Dirt-Background.png");
+}
+h1{
+
+    font-family: MinecraftHead, serif;
+}
+h2{
+    font-family: MinecraftHead, serif;
+}
+h3{
+
+    font-family: MinecraftHead, serif;
+}
+p{
+    font-family: MinecraftNormal, serif;
+}
+ul{
+    font-family: MinecraftNormal, serif;
+}
+ol{
+    font-family: MinecraftNormal, serif;
+}
+footer{
+    font-family: MinecraftNormal, serif;
+}
+.gray-div{
+    color: white;
+    background: gray;
+    display: inline-block;
+    width: 950px;
+    border-radius: 0.5%;
+}
+.offset-div{
+    margin-left: 20px;
+}
