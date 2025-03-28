@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+    <link rel="stylesheet" href="main.css">
+    <head>
+        <title>
+            Questionnaire
+        </title>
+    </head>
+    <body>
+        <br>
+        <hr>
+        <br>
+    <div class="form-container">
+        <form>
+            
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name"/>
+                <br>
+                <label for="age">Age:</label>
+                <input type="number" id="age" name="age" min="0"/>
+                <br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"/>
+                <br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password"/>
+            </fieldset>
+
+            <fieldset>
+                <legend>Emotional State</legend>
+                <br>
+                <b>Please Check all the emotions that apply to you:</b>
+                <br>
+                <br>
+                
+                <label for="angry">Angry</label>
+                <input type="checkbox" id="angry" name="angry"/><br>
+                <label for="sad">Sad</label>
+                <input type="checkbox" id="sad" name="sad"/><br>
+                <label for="happy">Happy</label>
+                <input type="checkbox" id="happy" name="happy"/><br>
+                <label for="ambivalent">Ambivalent</label>
+                <input type="checkbox" id="ambivalent" name="ambivalent"/><br>
+            </fieldset>
+
+            <fieldset>
+                <legend>Satisfaction</legend>
+                <br>
+                <b>How satisfied were you with the facilities?</b>
+                <br>
+                <br>
+                <label for="very_satisfied">Very Satisfied</label>
+                <input type="radio" id="very_satisfied" name="satisfaction">
+                <br>
+                <label for="satisfied">Satisfied</label>
+                <input type="radio" id="satisfied" name="satisfaction">
+                <br>
+                <label for="didnt_care">Didn't Care</label>
+                <input type="radio" id="didnt_care" name="satisfaction">
+                <br>
+                <label for="dissatisfied">Dissatisfied</label>
+                <input type="radio" id="dissatisfied" name="satisfaction">
+                <br>
+                <label for="very_dissatisfied">Very Dissatisfied</label>
+                <input type="radio" id="very_dissatisfied" name="satisfaction">
+                <br>
+                <label for="further_comments">Further Comments:</label>
+                <textarea id="further_comments" name="further_comments" rows="4"></textarea>
+            </fieldset>
+            <fieldset>
+                <legend>Location of Theme Park</legend>
+                <label for="location">Location Visited:</label>
+                <select name="location" id="location">
+                    <option>Select Location</option>
+                    <option value="dublin">Dublin</option>
+                    <option value="galway">Galway</option>
+                    <option value="limerick">Limerick</option>
+                    <option value="Belfast">Belfast</option>
+
+                </select>
+            </fieldset>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <br>
+    <br>
+    <br>
+    <hr>
+    </body>
+</html>
