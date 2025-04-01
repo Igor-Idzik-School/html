@@ -6,7 +6,7 @@
     <title>Assignment 3</title>
 </head>
 <body>
-<form class="contact-ref">
+<form id="contact-ref">
     <p>
         First Name:
         <br>
@@ -83,6 +83,27 @@
     <br>
     <input type="submit" value="Submit Card Details">
 </form>
+
+<script>
+    let formID = document.getElementById("contact-ref");
+    formID.addEventListener("submit",userData)
+    function userData()
+    {
+        event.preventDefault();
+        let firstName = document.getElementById("f-name").value;
+        let lastName = document.getElementById("l-name").value;
+        let email = document.getElementById("email").value;
+        let dob = document.getElementById("dob").value;
+        let cardType = document.querySelector('input[name="credit-cards"]:checked').id;
+        let cardNumber = document.getElementById("card-num").value;
+        let expiryYear = document.getElementById("expiry-year").value;
+        let expiryMonth = document.getElementById("expiry-month").value;
+        let additionalInfo = document.getElementById("additional-info").value;
+        console.log(firstName,lastName,email,dob,cardType,cardNumber,expiryYear,expiryMonth,additionalInfo)
+    }
+</script>
+
 </body>
+
 
 </html>
