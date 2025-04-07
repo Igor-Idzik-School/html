@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="surveystyle.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Survey</title>
+</head>
+<body>
+<hr>
+<a href="index.html">Main Page</a>
+<hr>
+<br>
+<form>
+  <label for="name">Name:</label>
+  <input type="text" id="name" name="name" autocomplete="off">
+  <br>
+  <label for="age">Age:</label>
+  <input type="number" id="age" name="age" autocomplete="off" min="0">
+  <br>
+  <label for="residence">Country where you reside:</label>
+  <input type="text" id="residence" name="residence" autocomplete="off">
+  <br>
+  <label for="fav-visited">Your favourite visited country:</label>
+  <input type="text" id="fav-visited" name="fav-visited" autocomplete="off">
+  <br>
+    <p>How many times have you visited your favourite country:</p>
+  <label for="1-3">1-3</label><input type="radio" id="1-3" name="times-visited" value="1-3"><br>
+  <label for="4-6">4-6</label><input type="radio" id="4-6" name="times-visited" value="4-6"><br>
+  <label for="7-9">7-9</label><input type="radio" id="7-9" name="times-visited" value="7-9"><br>
+  <label for="10+">10+</label><input type="radio" id="10+" name="times-visited" value="10+"><br>
+  <br>
+  <label for="subscription">Subscribe to weekly Newsletter:</label><input type="checkbox" id="subscription" name="subscription">
+  <br>
+  <hr>
+  <input type="submit" value="Submit">
+</form>
+</body>
+</html>
