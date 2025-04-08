@@ -2,3 +2,22 @@
 table, th,td{
  border: 1px solid black
 }
+
+.map-image{
+margin-left: 20px;
+ width: 33%;
+ float: left;
+
+
+}
+
+.flag-image{
+ margin-top: 150px;
+ margin-right: 20px;
+ width: 33%;
+ float: right;
+}
+
+.croatia-information{
+ clear: left;
+ }
